@@ -1,0 +1,99 @@
+.card__container {
+  width: 100%;
+  margin-top: 2rem;
+
+  h1 {
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 2rem;
+  }
+
+  .cards {
+    width: 100%;
+    height: max-content;
+    margin-bottom: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .card__box {
+      width: 333px;
+      height: 425px;
+      border: 1px solid white;
+      background-color: white;
+
+      .img__section {
+        display: flex;
+        height: 40%;
+        align-items: center;
+        img {
+          width: 141px;
+          height: 103px;
+          margin: auto;
+        }
+      }
+      .info__section {
+        height: 60%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 5px 10px;
+
+        .offer {
+          display: flex;
+          align-items: center;
+          padding: 10px 0px;
+
+          span {
+            padding: 10px 20px;
+            background-color: #f2f4f7;
+            border-radius: 8px;
+            margin-right: 10px;
+            color: #074786;
+            font-size: 13px;
+          }
+        }
+
+        h3 {
+          text-align: center;
+          color: #626e79;
+          font-size: 16px;
+          font-weight: 700;
+        }
+        p {
+          color: #626e79;
+          font-size: 16px;
+          word-spacing: 5px;
+        }
+        .price__section {
+          display: flex;
+          align-items: center;
+          gap: 15px;
+          padding: 10px 0;
+
+          p {
+            font-weight: lighter;
+            font-size: 14px;
+            &:first-child {
+              font-size: 20px;
+              font-weight: normal;
+            }
+
+            span {
+              font-size: 13px;
+              color: red;
+            }
+          }
+        }
+        button {
+          height: 48px;
+          border-radius: 12px;
+          border: none;
+          font-size: 16px;
+          background-color: #1b88f4;
+          color: #ffffff;
+        }
+      }
+    }
+  }
+}

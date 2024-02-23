@@ -1,0 +1,115 @@
+.main__header {
+  width: 100vw;
+  height: 50vh;
+
+  .header {
+    height: 10vh;
+    width: 100%;
+    background-color: #212731;
+    color: #fff;
+
+    .sub__header {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .search__header {
+        width: 258px;
+        height: 37px;
+        background-color: #fff;
+        border: 1px solid white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+
+        input {
+          width: 90%;
+          height: 90%;
+          border-radius: 0;
+          border: none;
+          outline: none;
+        }
+      }
+      p {
+        margin-left: 2.5rem;
+        font-size: 14px;
+      }
+    }
+  }
+  .header__heading {
+    width: 70%;
+    height: 60px;
+    display: flex;
+    margin: auto;
+    margin-top: 2rem;
+    flex-direction: column;
+
+    h1 {
+      font-size: 48px;
+      line-height: 60px;
+    }
+
+    .header__navigation {
+      padding: 8px 0px;
+      margin-top: 1rem;
+      border-top: 1px solid #e1e4e6;
+      border-bottom: 1px solid #e1e4e6;
+      display: flex;
+      align-items: center;
+      color: #4b5665;
+      justify-content: space-between;
+
+      .header__left__div {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+
+        .header__item {
+          margin: 10px;
+          display: flex;
+          align-items: center;
+          gap: 5px;
+        }
+      }
+      .header__right__div {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+      }
+    }
+    .bottom__header {
+      // background-color: orange;
+      margin-top: 1rem;
+      color: #4b5665;
+
+      span {
+        font-size: 13px;
+        width: 106px;
+        height: 20px;
+        margin-left: 20px;
+        background-color: #ffffff;
+        padding: 10px 15px;
+        border-radius: 20px;
+      }
+    }
+    .bottom__sub__header {
+      display: flex;
+      align-items: center;
+      padding: 15px 30px;
+      font-size: 14px;
+      margin-top: 1rem;
+      color: #5c6874;
+
+      .item__subheader {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+        margin-right: 20px;
+      }
+    }
+  }
+}

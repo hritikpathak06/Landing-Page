@@ -1,0 +1,34 @@
+.sign__up {
+  width: 100%;
+  padding: 20px 0px;
+  margin-bottom: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  h2 {
+    width: 398px;
+    font-size: 32px;
+    color: #5c6874;
+    font-weight: 400;
+  }
+
+  .input__div {
+    input {
+      width: 348px;
+      height: 52px;
+      background-color: #ffffff;
+      border: none;
+      outline: none;
+      border-radius: 12px 0px 0px 12px;
+    }
+    button {
+      height: 52px;
+      width: 97px;
+      border-radius: 0px 12px 12px 0px;
+      background-color: #1b88f4;
+      color: #ffffff;
+      border: none;
+    }
+  }
+}

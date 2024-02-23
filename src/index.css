@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+
+}
+
+body{
+  background-color:#FBFCFD;
+}
+
+.main{
+  width: 70%;
+  margin: auto;
+}
+
+.heading__text{
+  font-size: 32px;
+  color: #2C384A;
+}
+
+.card__content{
+  display: flex;
+}
